@@ -1,0 +1,57 @@
+
+
+body{
+	background-image: white;
+
+}
+
+td{
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	height: 25px;
+
+}
+
+tr{
+
+} 
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	border-collapse: collapse;  /* junta los bordes de la tabla */
+	box-shadow: 10px 10px 35px black;
+	margin-top: 100px;
+
+}
+h1{
+	text-align: center;
+	height: 60px;
+	background: rgba(137, 207, 240, 0.9);
+	color: white;
+	padding-top: 15px;
+
+}
+
+th{
+	border-width: 2px;
+	border-style: solid;
+	background: rgba(137, 207, 240, 0.5);
+	height: 35px;
+}
+
+ol, ul{
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+}
+
+h2{
+	text-align: center;
+	height: 50px;
+	background: rgba(137, 207, 240, 0.9);
+	color: white;
+	padding-top: 15px;
+}

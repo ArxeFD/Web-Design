@@ -1,61 +1,76 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Baja California Sur</title>
 	<link rel="stylesheet" href="../css/estilobcs.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=open+sans">
 	<style>
-		h1{
-			text-decoration: overline;
-			text-align: center;
-			font-size: 50px;
-		}
-		p.p1{
-			font-family: "Open Sans", sans-serif;
-			font-size: 21px;
-			text-align: center;
-		}
 
-		a{
-  			text-align: center;
-  			display: inline-block;
-  			width: 100%;
-		}
 	</style>
 </head>
-<body>
-	<header>
-		<h1>BAJA CALIFORNIA SUR</h1>
-		<p class="p1">Baja California Sur es un paraíso turístico, que se encuentra en la región noroeste del país, sus increíbles paisajes 
-		con el mar de Cortés de fondo, un clima agradable y cálido la mayor parte del año, hacen de este estado el lugar idóneo para disfrutar de la naturaleza, el turismo de aventura y actividades acuáticas.
-		Este rincón de México cuenta con un éxotico territorio que comprende, playas, cordilleras, desierto y minas.
+<body class="bodyinf">
 
-		</p>
-<br><br>
-	
-	<!-- NOMBRE DE LOS MUNICIPIOS -->
-	<h3>MUNICIPIO DE LA PAZ</h3>
-		<img class="centerImg" src="../imagenes/lapaz.jpg" alt=""> <br><br>
-		<a href="infLaPaz.html">Conoce La Paz</a> <br><br>
+	<header class="infbcs">
 
-	<h3>MUNICIPIO DE LOS CABOS</h3>
-		<img class="centerImg" src="../imagenes/loscabos.jpg" alt=""> <br><br>
-		<a href="infLosCabos.html">Conoce Los Cabos</a> <br><br>
+	<a href="bcsur.html" class="logo">Baja California Sur</a>
+	<div class="toggle"></div>
 
-	<h3>MUNICIPIO DE COMONDÚ</h3>
-		<img class="centerImg" src="../imagenes/comondu.jpg" alt=""> <br> <br>
-		<a href="infComondu.html">Conoce Comondú</a> <br><br>
+ 	</header>
 
-	<h3>MUNICIPIO DE LORETO</h3>
-		<img class="centerImg" src="../imagenes/loreto.jpg" alt=""> <br><br>
-		<a href="infLoreto.html">Conoce Loreto</a> <br><br>
+	<div class="slider" checked="checked">
 
-	<h3>MUNICIPIO DE MULEGÉ</h3>
-		<img class="centerImg" src="../imagenes/mulege.jpg" alt=""> <br><br>
-		<a href="infMulege.html">Conoce Mulegé</a> <br><br>
+		<input type="radio" name="slider">
+		<div class="imgBx">
+			<img src="../imagenes/loscabos1.jpg">
+			<div class="content">
+				<h2>Los Cabos</h2>
+				<p>Siendo uno de los destinos turísticos principales de México, Los Cabos cuenta con varios de los hoteles y resorts más lujosos del mundo, spas extraordinarios, restaurantes galardonados, campos de golf con las más altas puntuaciones; y su locación privilegiada se presta para divertidas actividades y grandes aventuras.</p>
+				<a href="infLosCabos.html">Leer Más</a>
+			</div>
+		</div>
 
-	</header>
+		<input type="radio" name="slider">
+		<div class="imgBx">
+			<img src="../imagenes/lapaz1.jpg">
+			<div class="content">
+				<h2>La Paz</h2>
+				<p>Caminar por el malecón de La Paz te dará una de las mejores vistas de la Península de Baja California, la misma que alberga una rica diversidad de especies marinas como la ballena gris, que todos los años visita estas aguas.</p>
+				<a href="infLaPaz.html">Leer Más</a>
+			</div>
+		</div>
 
-</html>
+		<input type="radio" name="slider">
+		<div class="imgBx">
+			<img src="../imagenes/comondu1.jpeg">
+			<div class="content">
+				<h2>Comondú</h2>
+				<p>Comondú es una joya entre dos mares. Es un pintoresco destino turístico llamado a convertirse en uno de los grandes atractivos turísticos de la península de Baja California por sus islas, playas, bahías, oasis y fértiles valles.</p>
+				<a href="infComondu.html">Leer Más</a>
+			</div>
+		</div>
+
+		<input type="radio" name="slider">
+		<div class="imgBx">
+			<img src="../imagenes/loreto.jpg">
+			<div class="content">
+				<h2>Loreto</h2>
+				<p>Loreto ofrece a sus visitantes imponentes paisajes naturales, islas con una diversidad de flora y fauna endémicas. La vida submarina en Loreto es rica en contrastes, desde el avistamiento de ballena azul, hasta el buceo en su Parque Nacional Marino.</p>
+				<a href="infLoreto.html">Leer Más</a>
+			</div>
+		</div>
+
+		<input type="radio" name="slider">
+		<div class="imgBx">
+			<img src="../imagenes/mulege.jpg">
+			<div class="content">
+				<h2 id="MulegeSub">Mulegé</h2>
+				<p>Cuenta con bahías, playas, costas, ríos, acantilados, desiertos, montañas, que son el escenario perfecto para la admiración y la realización de actividades en contacto directo con la naturaleza.</p>
+				<a href="infMulege.html">Leer Más</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html> 
+
